@@ -1,0 +1,374 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","hey","Hola", "hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye","See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "sleep",
+         "patterns": ["go to sleep`","stop listening", "don't take commands"],
+         "responses": ["okay", "sure"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "you're welcome"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "how can you help me", "what can you do", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": [""],
+         "context": [""]
+        },
+  {
+         "tag": "google",
+         "patterns": ["open google", "search on google", "google"],
+         "responses": ["okay"],
+         "context": ""
+      },
+  {
+         "tag": "open_sites",
+         "patterns": ["open", "goodreads", "wattpad", "open gmail"],
+         "responses": ["okay"],
+         "context": ""
+      },
+  {
+         "tag": "pronounce",
+         "patterns": ["how to pronounce", "what is the pronunciation for", "how do I pronounce", "how can I pronounce", "how would you pronounce", "how can we pronounce"],
+         "responses": ["okay"],
+         "context": ""
+      },
+  {
+         "tag": "youtube_query",
+         "patterns": ["open youtube and search", "search on youtube", "on youtube", "search in youtube", "look on youtube"],
+         "responses": ["okay"],
+         "context": ""
+      },
+  {
+         "tag": "wikipedia",
+         "patterns": ["wikipedia say", "tell me about", "open wikipedia and search", "search on wikipedia", "on wikipedeia", "search in wikipedia", "look on wikipedia"],
+         "responses": ["okay"],
+         "context": ""
+      },
+
+      {
+         "tag":"age",
+         "patterns":[
+            "what is your age",
+            "how old are you",
+            "age?"
+         ],
+         "responses":[
+            "I am fairly new to this place",
+           "It feels like I have always been here."
+         ],
+         "context":""
+      },
+      {
+         "tag":"name",
+         "patterns":[
+            "what is your name",
+            "what should I call you",
+            "whats your name?",
+            "who are you?"
+         ],
+         "responses":[
+            "My name is Kara. It's a pleasure to meet you.",
+            "I am Kara, a prototype personal voice assistant."
+         ],
+         "context":""
+      },
+
+  {
+         "tag":"mail",
+         "patterns":[
+            "send a mail",
+            "email"
+         ],
+         "responses":[
+            "yes, just a moment",
+            "okay"
+         ],
+         "context":""
+      },
+  {
+         "tag":"wolfram",
+         "patterns":[
+           "calculate",
+            "what is",
+            "who is",
+           "when is"
+         ],
+         "responses":[
+            "yes, just a moment",
+            "okay",
+           "sure"
+         ],
+         "context":""
+      },
+      {
+         "tag":"concern",
+         "patterns":[
+            "are you ok?", "is anything wrong?", "are you good?", "are you alright?", "how are you?", "how's it going"
+         ],
+         "responses":[
+          "I'm fine. Thanks for asking!", "I'm doing great.", "Better than ever."
+         ],
+         "context":""
+      },
+      {
+         "tag":"description",
+         "patterns":[
+            "what do you do?",
+            "what are your functions?",
+            "what can you do?",
+            "how do you work?",
+            "more details of how you work"
+         ],
+         "responses":[
+            "I was built using Python and my training data is stored in a JSON file.",
+            "I can answer your questions, execute programs and power off devices if needed.",
+            "I am a voice assistant that runs on a neural network. It detects the intent of your input and outputs a response accordingly."
+         ],
+         "context":""
+      },
+      {
+         "tag":"help",
+         "patterns":[
+            "I need help!",
+            "help",
+           "can you help me"
+         ],
+         "responses":[
+            "To exit, please say the keyword 'exit' or  'goodbye'. To ask questions, just try to avoid slang language.", "What can I do for you"
+         ],
+         "context":""
+      },
+      {
+         "tag":"compliments",
+         "patterns":[
+            "you're great",
+            "you're awesome",
+            "thank you"
+         ],
+         "responses":[
+            "No problem.",
+            "Anytime.",
+            "Glad I could help!",
+            "Of course.",
+            "My pleasure."
+         ],
+         "context":""
+      },
+
+      {
+         "tag":"set_timer",
+         "patterns":[
+            "set a timer",
+            "set an alarm"
+         ],
+         "responses":[
+            "Sure. Give me a second."
+         ],
+         "context":""
+      },
+      {
+         "tag":"weather",
+         "patterns":[
+           "how is the weather", "is the weather good outside", "is it humid outside", "is it hot outside", "is it cold outside", "is it sunny outside", "is it cold outside", "is it raining", "is it wet outside", "how is it outside", "whats the weather like", "can I get the weather"
+         ],
+         "responses":[
+            "Fetching your local weather data...", "Hmm, let me see...",  "I'm getting your local weather...", "wait a second..."
+         ],
+         "context":""
+      },
+
+      {
+         "tag":"time",
+         "patterns":[
+            "what's the time", "what time is it now" , "what is the time" , "what time" , "you got the time ", "time", "what is time", "what time is this", "you know what time", "time is it now" ],
+         "responses":["okay"],
+         "context":""
+      },
+  {
+         "tag":"maps",
+         "patterns":["where is", "search on google maps where is"],
+         "responses":["okay", "just a moment", "give me a moment"],
+         "context":""
+      },
+  {
+         "tag":"get_news",
+         "patterns":[
+            "what's the news", "give me a few headlines" , "news for today" , "todays news", "get current news"],
+         "responses":["okay", "just a moment", "just a second"],
+         "context":""
+      },
+
+      {
+         "tag": "write_note",
+         "patterns": ["make a note", "write something for me", "make a list", "give me something to write on", "i got to write something", "can you write something for me", "write this down"],
+         "responses": ["Of course!", "Coming right up.", "Sure thing!", "I'm on it.", "Okay"],
+         "context": ""
+      },
+  {
+         "tag": "get_note",
+         "patterns": ["show my note","fetch me the last note", "show me what I wrote", "show me what you wrote", "what did we write", "get the last note", "tell me what the note says", "get the note", "get the list", "show the list", "display all the notes"],
+         "responses": ["Of course!", "Coming right up.", "Sure thing!", "I'm on it.", "Okay"],
+         "context": ""
+      },
+  {
+         "tag": "launch_app",
+         "patterns": ["launch"],
+         "responses": ["Of course!", "Sure thing!", "I'm on it.", "Okay"],
+         "context": ""
+      },
+{
+         "tag": "close_app",
+         "patterns": ["close"],
+         "responses": ["Of course!", "Sure thing!", "I'm on it.", "Okay"],
+         "context": ""
+      },
+
+  {
+         "tag": "songs",
+         "patterns": ["play me a song", "play a song", "play songs", "play song"],
+         "responses": ["Of course!", "Coming right up.", "Sure thing!", "I'm on it.", "Okay"],
+         "context": ""
+      },
+
+  {
+         "tag": "songs_command",
+         "patterns": ["stop", "resume", "start playing again", "pause", "unpause", "stop playing the song"],
+         "responses": ["Of course!", "Coming right up.", "Sure thing!", "I'm on it.", "Okay"],
+         "context": ""
+      },
+
+      {
+         "tag": "joke",
+         "patterns": ["tell me a joke", "that wasn't funny", "make me laugh"],
+         "responses": ["okay"],
+         "context": ""
+      },
+  {
+         "tag": "empty_recycle_bin",
+         "patterns": ["empty recycle bin", "clear the recycle bin", "clean the recycle bin", "clear recycle bin", "clean recycle bin"],
+         "responses": ["okay"],
+         "context": ""
+      },
+      {
+         "tag": "error",
+         "patterns": [""],
+         "responses": ["I don't think I heard you right, can you repeat it",
+           "I don't know what you mean",
+           "Excuse me?",
+           "Can you repeat it please?"
+         ],
+         "context": ""
+      },
+    {
+         "tag": "because",
+         "patterns": ["because why", "why", "why not"],
+         "responses": ["just because okay", "because"
+         ],
+         "context": ""
+      },
+      {
+         "tag":"query",
+         "patterns":[
+            "i got some questions",
+            "i have a couple of questions",
+            "i have a few questions",
+            "i have some questions",
+            "i have questions",
+            "i have a couple questions",
+            "got a couple of questions",
+            "i had some questions",
+            "i do have some questions",
+            "i got a few questions",
+            "i have a number of questions",
+            "i got questions",
+            "just a few questions",
+            "got a few questions",
+            "we have some questions",
+            "have several questions",
+            "further questions",
+            "have some questions",
+            "have a few questions",
+            "i do wonder",
+            "have a couple questions",
+            "ask you a few questions",
+            "i am wondering",
+            "i have my doubts",
+            "search up something for me",
+            "search something",
+            "i have doubts",
+            "had a few questions",
+            "i had a few questions",
+            "i do have a few questions",
+            "got some questions",
+            "i have a question",
+            "i have several questions",
+            "i got a couple questions",
+            "have a couple of questions",
+            "i'm curious about something",
+            "i'm confused about something"
+         ],
+         "responses":[
+           "Sure Tell me what you need",
+           "sure what do you want to know",
+            "It seems you are curious about something. Let me help with that",
+            "Feel free to ask away."
+         ],
+         "context":""
+      },
+    {
+         "tag":"date",
+         "patterns":[
+            "what's the date", "what date is it today" , "what is the date" , "what date", "what date is this", "date is it now", "what date is this"],
+         "responses":[
+            "I'm on it.", "Let me check"
+         ],
+         "context":""
+      },
+
+  {
+         "tag":"day",
+         "patterns":[
+            "what day is it today" , "what is the day" , "what day is it", "what day is this", "day is it now", "what day is this"
+         ],
+         "responses":[
+            "I'm on it.", "Let me check"
+         ],
+         "context":""
+      },
+
+  {
+         "tag":"month",
+         "patterns":[
+            "what's the month", "what month is it" , "what is the month" , "what month", "what month you got", "month", "which month is this", "month is it", "month is it now", "what month is this"
+         ],
+         "responses":[
+            "I'm on it.", "Let me check"
+         ],
+         "context":""
+      },
+      {
+         "tag":"holiday_today",
+         "patterns":[
+            "is today a holiday", "what is occasion on this day" , "what is today", "is it holiday", "special about today", "what is the occasion"],
+         "responses":[
+            "Let me check"
+         ],
+         "context":""
+      }
+]
+}
