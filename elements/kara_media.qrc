@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>edited_bg2.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>kara_logo-removebg-preview.png</file>
+  </qresource>
+</RCC>
