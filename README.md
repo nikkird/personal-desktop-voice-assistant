@@ -1,4 +1,5 @@
-## personal-desktop-voice-assistant
+# KARA
+### Personal-Desktop-Voice-Assistant
 Kara - A Personal Desktop Voice Assistant developed with Python using NLP and RNN
 
 <h4> Kara can be, presently, in 3 states as per user request: </h4>
