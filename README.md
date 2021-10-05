@@ -2,7 +2,7 @@
 
 Developed with Python using Speech Recognition(Pyttsx), NLP and RNN and PyQT5 (for GUI), with features like automated web browsing, playing songs, searching particular locations on google maps, Open System Applications, providing information like weather, news, facts from wikipedia, etc.
 
-<h4> Kara can be, presently, in 3 states as per user request: </h4>
+<h4> Kara can presently be in 3 states as per user request: </h4>
 <table>
   <tr>
     <th> Listening Mode </th> <th> Speaking Mode </th> <th> Sleeping Mode </th>
